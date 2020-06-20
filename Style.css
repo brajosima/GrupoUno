@@ -1,0 +1,32 @@
+* {
+    margin: 100;
+    padding: 100;
+    box-sizing: border-box;
+}
+
+body {
+    color: #555;
+    font-family: Open Sans;
+    font-size: 72px;
+    position: relative;
+    height: 100vh;
+    font-weight: 200;
+}
+
+.fondo {
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    width: 50%;
+    padding-top: 300px;
+    padding-bottom: 100px;
+    padding-left: 200px;
+    padding-right: 200px;
+    color: #fff;
+    background: url(BACKGROUND.jpg), linear-gradient(to left, #7b4397, #dc2430)
+}
+
+div {
+    padding: 14px 16px;
+}
